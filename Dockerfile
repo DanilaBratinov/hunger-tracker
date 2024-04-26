@@ -7,4 +7,4 @@ COPY ./Monitor/ ./monitor
 WORKDIR monitor/
 
 ENTRYPOINT ["python3"]
-CMD ["connect.py"]
+CMD ["main.py"]
